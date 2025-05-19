@@ -15,7 +15,8 @@
 ],
 
 "modules-center": [
-"clock"
+"clock.time",
+"clock.date"
 ],
 
 "modules-right": [
@@ -44,8 +45,13 @@
 "tooltip": false
 },
 
-"clock": {
-"format": "{:%H:%M - %a | %d %b %Y}",
+"clock#time": {
+"format": "{:%H:%M}",
+"tooltip": false
+},
+
+"clock#date": {
+"format": "{:%a %d %b %Y}",
 "tooltip": false
 },
 
