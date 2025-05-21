@@ -82,6 +82,8 @@ tooltip label {
 #battery,
 #network,
 #clock,
+#custom-time,
+#custom-date,
 #tray,
 #workspaces,
 #pulseaudio {
@@ -101,6 +103,23 @@ tooltip label {
   border-top-color: rgba(255,255,255,0.45);
   border-width: 1px;
 }
+
+#custom-time,
+#clock.time {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#custom-date,
+#clock.date {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 0;
+  border-left: none;
+}
+
 
 #tray menu {
   background-color: rgba(255,255,255,0.025);
