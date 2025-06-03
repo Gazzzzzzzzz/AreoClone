@@ -1,0 +1,11 @@
+18c18
+< "clock.time",
+---
+> "custom/time",
+48,49c48,50
+< "clock#time": {
+< "format": "{:%H:%M}",
+---
+> "custom/time": {
+> "exec": "date '+%l:%M %p'",
+> "interval": 1,
