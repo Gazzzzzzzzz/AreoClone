@@ -1,4 +1,4 @@
-# Diinki Aero
+# My Diinki Aero Config
 
 This is my frutiger aero themed rice, I will likely update it with time; so you can head over to the releases page for more concrete versions.
 I made a video of this rice, which you can watch here:
