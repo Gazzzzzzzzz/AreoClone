@@ -1,4 +1,4 @@
-# Gaz's Framewrok Optmised Areo Rice.
+# Gaz's Framework Optmised Areo Rice.
 Installed on Fedora42 Designed for Framework 13 Laptops with the 2.8k 120Hz display. 
 
 This is diinky's frutiger aero themed rice, She will likely update it with time(Her words not mine); so you can head over to the releases page for more concrete versions. diinky made a video of this rice, which you can watch here:
@@ -49,35 +49,36 @@ and then set the GTK theme to "diinki-aero" with either `gsettings` or the `dcon
 
 You can edit the keybinds in the hyprland config file as needed to match your preference, by default the most important ones:
 
-# mod + enter = start terminal
+# start terminal
 bind = $mainMod, Return, exec, $terminal
-# mod + Q = kill current focused application
+# Kill current focused application
 bind = $mainMod, Q, killactive,
-# mod + shift + S = take screenshot of area, MUST HAVE HYPRSHOT INSTALLED!
+# Take screenshot of area, MUST HAVE HYPRSHOT INSTALLED!
 bind = $mainMod SHIFT, S, exec, hyprshot --mode region --output-folder /tmp
-# mod + E = open file manager (I prefer caja).
+# Open file manager (I prefer caja).
 bind = $mainMod, E, exec, $fileManager
-# mod + shift + space = Toggle focused window to be floating or tiled.
+# Toggle focused window to be floating or tiled.
 bind = $mainMod SHIFT, SPACE, togglefloating
-# mod + F = toggle focused window to full-screen view.
+# Toggle focused window to full-screen view.
 bind = $mainMod, F, fullscreen
-# mod + D = toggle application launcher (I prefer wofi).
+# Toggle application launcher (I prefer wofi).
 bind = $mainMod, D, exec, $menu
-# mod + Shift + Q = restart hyprland and go back to gdm
+# Restart hyprland and go back to gdm
 bind = $mainMod SHIFT, R, exec, hyprctl reload 
 # Exit Hyprland and return to GDM
 bind = $mainMod SHIFT, Q, exit
-# mod + V = launch Visual Studio Code
+# Launch Visual Studio Code
 bind = $mainMod, V, exec, code
-# mod + - = systemctl suspend
+# Systemctl suspend
 bind = $mainMod, -, exec, systemctl suspend
 # Lock on lid open
 bind =,switch:on:Lid Switch, exec, hyprlock
 # Lock lid on close
 bind =,switch:off:Lid Switch, exec, systemctl suspend
-# mod + L = hyprlock
+# Hyprlock
 bind = $mainMod, L, exec, hyprlock
 
 # Updates & Changes
 
 Aspects and components of this rice will change with time, until diinky has a finalized design, she'll make specific releases on the github releases page.
+I have changed the spacing aound the border of all things to 5px bc I need the extra space. Added Chao and Lain gif instead of Pokemon. Changed Gif spacing. Added Power Profiles to Waybar. Added Memory Use in waybar. Changed Networking Icons to work for me. Changed Sound Icons for the network speed indicator. I added a config to kitty that was not in the orginal repo but something was configered in the Video by diinky
