@@ -39,7 +39,7 @@
     :height "100px"
     :anchor "bottom right")
   (diinkitemperature)
-)
+);does not always work but very useful when it does the actual script of the weather getting also applies to HyprLock
 
 (defwindow gif1
   :monitor '["<primary>", 2, 1, 0]'
@@ -53,7 +53,7 @@
     :height "30px"
     :anchor "top right")
   (gif1)
-)
+);I have this set to the nodding Lain in the top right
 
 
 (defwindow gif2
@@ -68,7 +68,7 @@
     :height "70px"
     :anchor "top left")
   (gif2)
-)
+);Nightclub'n Lain 
 
 (defwindow gif3
   :monitor '["<primary>", 2, 1, 0]'
@@ -83,4 +83,4 @@
     :height "70px"
     :anchor "bottom left")
   (gif3)
-)
+);Chao Looks super good on the ARCHPOOL.png I assume also HIRAETH.png But I haven't used with the ladder
