@@ -1,4 +1,5 @@
 # Gaz's Framewrok Optmised Areo Rice.
+Installed on Fedora42 Designed for Framework 13 Laptops with the 2.8k 120Hz display. 
 
 This is diinky's frutiger aero themed rice, She will likely update it with time; so you can head over to the releases page for more concrete versions.
 I made a video of this rice, which you can watch here:
