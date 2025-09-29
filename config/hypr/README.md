@@ -1,5 +1,5 @@
 # diinki aero Hyprland config
-I've decided to use Hyprland as the tiling window manager of choice for the
+diinky decided to use Hyprland as the tiling window manager of choice for the
 'diinki aero' rice. 
 
 These are the config files, everything is well commented, so take a look and
@@ -12,4 +12,4 @@ spacing changes for more things on screen
 quit to gdm shortcut
 laptop lid switch 
 reload hyprland comand- kinda dosen't work but kinda does?
-Fility heavy slow vs code shortcut
+Vs code shortcut
