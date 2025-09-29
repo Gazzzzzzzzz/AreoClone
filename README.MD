@@ -1,5 +1,7 @@
 # Gaz's Framework Optmised Areo Rice.
 Installed on Fedora42 Designed for Framework 13 Laptops with the 2.8k 120Hz display. 
+Display is configrued for the full feature set and is able to be changed while in the DE just need to reload Hyprlan.
+
 
 This is diinky's frutiger aero themed rice, She will likely update it with time(Her words not mine); so you can head over to the releases page for more concrete versions. diinky made a video of this rice, which you can watch here:
 https://www.youtube.com/watch?v=Tx9dHc0MyHs
@@ -15,7 +17,7 @@ You need to install the following dependencies on your system:
 - `caja` the file explorer
 - `waybar` the taskbar
 - `wofi` the application launcher/spotlight like search.
-- I use the `kitty` terminal, but you can use whichever terminal emulator that you are comfortable with.
+- diinky uses the `kitty` terminal, but you can use whichever terminal emulator that you are comfortable with. ( I did biuld on that)
 
 On arch, you can install some of the above with `sudo pacman -S hyprland caja waybar wofi kitty`, installing `eww` has to
 be done separately, easiest way is from the AUR with yay.
