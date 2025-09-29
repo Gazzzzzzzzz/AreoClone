@@ -14,7 +14,7 @@ You need to install the following dependencies on your system:
 - `hyprland` the tiling window manager
 - `caja` the file explorer
 - `waybar` the taskbar
-- `wofi` the application launcher.
+- `wofi` the application launcher/spotlight like search.
 - I use the `kitty` terminal, but you can use whichever terminal emulator that you are comfortable with.
 
 On arch, you can install some of the above with `sudo pacman -S hyprland caja waybar wofi kitty`, installing `eww` has to
@@ -24,7 +24,7 @@ To install, copy all the folders in the `config` directory, to the `~/.config` d
 
 The `.config` directory is where most applications will store their config files.
 
-You will need to make edits to config files, as not all configs are drag & drop, the files are commented in
+You will need to make edits to config files, as not all configs are drag & drop But these are ment for Framework Laptops, the files are commented in
 order to help.
 
 ## Weather Widget ☁️
@@ -62,4 +62,4 @@ You can edit the keybinds in the hyprland config file as needed to match your pr
 
 # Updates & Changes
 
-Aspects and components of this rice will change with time, until I have a finalized design, I'll make specific releases on the github releases page.
+Aspects and components of this rice will change with time, until diinky has a finalized design, she'll make specific releases on the github releases page.
