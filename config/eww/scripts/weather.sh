@@ -13,7 +13,9 @@ cache_weather_icon=${cache_dir}/weather-icon
 ## WEATHER API DATA & KEYS! --------- INPUT YOUR DETAILS FROM openweathermap.org !!!
 KEY=""
 ID="" # Steps: 1. Go to openweathermap.org | 2. Search your City | 3. The City ID is in the URL. 
+#(the ui is a bit clunky Took me a good minuite to figrue out how to use the website)
 UNIT="metric"	# Available options : 'metric' or 'imperial'
+#Location may not be exact but I waas able to get one in a very rural area to just a few points of degrees form my Longatude and Laddtude
 ## --------------------------------------------------------------------------------
 
 ## Make cache dir
@@ -31,7 +33,7 @@ get_weather_data() {
 		weather_icon_code=`echo "$weather" | jq -r ".weather[].icon" | head -1`
 		weather_description=`echo "$weather" | jq -r ".weather[].description" | head -1 | sed -e "s/\b\(.\)/\u\1/g"`
 
-		#Big long if statement of doom
+		#Big long if statement of doom for cute messages and icons
 		if [ "$weather_icon_code" == "50d"  ]; then
 			weather_icon=" "
 			weather_quote="Forecast says it's misty \nMake sure you don't get lost on your way..."
