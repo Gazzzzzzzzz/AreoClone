@@ -9,8 +9,8 @@ cache_weather_icon="${cache_dir}/weather-icon"
 # Function to get weather data
 get_weather_data() {
     # Your existing weather API code from the eww version
-    KEY="4b94f4ff13e6b40065700b6409a9efb8"
-    ID="4258510"
+    KEY=""
+    ID=""
     UNIT="metric"
     
     weather=`curl -sf "http://api.openweathermap.org/data/2.5/weather?APPID=$KEY&id=$ID&units=$UNIT"`
