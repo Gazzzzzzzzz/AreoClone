@@ -1,4 +1,4 @@
-# Gaz's Framework Optmised Areo Rice.
+# Gaz's Framework optmized Areo Rice.
 Installed on Fedora42 Designed for Framework 13 Laptops with the 2.8k 120Hz display. 
 Display is configrued for the full feature set and is able to be changed while in the DE just need to reload Hyprlan.
 
