@@ -1,6 +1,6 @@
 # Gaz's Framework optmized Areo Rice.
-Installed on Fedora42 Designed for Framework 13 Laptops with the 2.8k 120Hz display. 
-Display is configrued for the full feature set and is able to be changed while in the DE just need to reload Hyprlan.
+I've Installed and designed this on Fedora42 for Framework 13 Laptops with the 2.8k 120Hz display. 
+Display is configrued for the full feature set and is able to be changed while in the DE just need to reload Hyprlan. I am thinking about ways that I could add a gui display framerate switcher with eww or waybar.
 
 
 This is diinky's frutiger aero themed rice, She will likely update it with time(Her words not mine); so you can head over to the releases page for more concrete versions. diinky made a video of this rice, which you can watch here:
