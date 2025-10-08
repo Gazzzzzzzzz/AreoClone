@@ -5,6 +5,7 @@ Display is configrued for the full feature set and is able to be changed while i
 
 This is diinky's frutiger aero themed rice, She will likely update it with time(Her words not mine); so you can head over to the releases page for more concrete versions. diinky made a video of this rice, which you can watch here:
 https://www.youtube.com/watch?v=Tx9dHc0MyHs
+special thanks to u/3JUP1T3R for letting me add the wallpaper to this rice to give a nice biult in lain look. 
 
 ![alt text](./wallpapers/aquarium.png)
 
