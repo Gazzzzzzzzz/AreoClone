@@ -3,8 +3,7 @@ I've Installed and designed this on Fedora42 for Framework 13 Laptops with the 2
 Display is configrued for the full feature set and is able to be changed while in the DE just need to reload Hyprlan. I am thinking about ways that I could add a gui display framerate switcher with eww or waybar.
 
 
-This is diinky's frutiger aero themed rice, She will likely update it with time(Her words not mine); so you can head over to the releases page for more concrete versions. diinky made a video of this rice, which you can watch here:
-https://www.youtube.com/watch?v=Tx9dHc0MyHs
+This is diinky's frutiger aero themed rice, She will likely update it with time(Her words not mine); so you can head over to the releases page for more concrete versions. diinky [made a video](https://www.youtube.com/watch?v=Tx9dHc0MyHs) on how to setup the dependancies and it had some exaples of her using the setup.
 special thanks to u/3JUP1T3R for letting me add the wallpaper to this rice to give a nice biult in lain look. 
 This is the [direct link to the photos](https://imgur.com/a/copland-os-wallpapers-i-made-QqnSDTh) and here's an [Archive.org link] (https://archive.org/details/u-3-jup-1-t-3-rs-copland-os-bg)
 
