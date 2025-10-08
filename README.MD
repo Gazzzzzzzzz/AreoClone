@@ -19,7 +19,7 @@ You need to install the following dependencies on your system:
 - `caja` the file explorer
 - `waybar` the taskbar
 - `wofi` the application launcher/spotlight like search.
-- diinky uses the `kitty` terminal, but you can use whichever terminal emulator that you are comfortable with. ( I did biuld on that)
+- `kitty` terminal, but you can use whichever terminal emulator that you are comfortable with but I've setup a config with this one.
 
 On arch, you can install some of the above with `sudo pacman -S hyprland caja waybar wofi kitty`, installing `eww` has to
 be done separately, easiest way is from the AUR with yay.
