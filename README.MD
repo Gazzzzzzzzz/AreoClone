@@ -38,7 +38,7 @@ You need to create an account there, get an API key, and then edit
 the `eww/scripts/weather.sh` file with the following details. I've commented more specific instructions in that bash file.
 
 The bash file stores the weather data in `~/.cache/eww/weather` every time `weather.sh --getdata` is called; as such, I recommend creating a
-cronjob for calling `~/.config/eww/scripts/weather.sh --getdata` every 30 minutes.
+cronjob for calling `~/.config/eww/scripts/weather.sh --getdata` every 3 minutes and this toatls 575 calls if ur computer is on all day.
 
 ## GTK theme & Icon Pack 🖌️
 
