@@ -78,7 +78,7 @@ bind = $mainMod, -, exec, systemctl suspend
 bind =,switch:on:Lid Switch, exec, hyprlock
 # Lock lid on close
 bind =,switch:off:Lid Switch, exec, systemctl suspend
-# Hyprlock
+# Hyprlock Keybind
 bind = $mainMod, L, exec, hyprlock
 
 # Updates & Changes
