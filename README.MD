@@ -70,7 +70,7 @@ bind = $mainMod, D, exec, $menu
 bind = $mainMod SHIFT, R, exec, hyprctl reload 
 # Exit Hyprland and return to GDM
 bind = $mainMod SHIFT, Q, exit
-# Launch Visual Studio Code
+# Launch Visual Studio Code yes Ik I'm fility for not using nano or nvim with the terminal but I have class ok!
 bind = $mainMod, V, exec, code
 # Systemctl suspend
 bind = $mainMod, -, exec, systemctl suspend
